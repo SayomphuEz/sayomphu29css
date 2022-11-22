@@ -1,0 +1,85 @@
+h3 {
+    font-size: 68px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(255, 157, 239);
+}
+
+.nav {
+    /*COM*/
+    list-style-type: none;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bgcolor {
+    background-color: aquamarine;
+}
+
+#bgurl {
+    text-align: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#bgurl:hover {
+    opacity: 0.6;
+}
+
+#bgurl img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+    float: left;
+}
+
+#hover:hover {
+    width: 300px;
+    background-color: aqua;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#text{
+    background-color: blueviolet;
+    border: 10px solid purple;
+    padding: 20px;
+    margin: 20px;
+    text-align:justify;
+    text-indent: 50px;
+
+}
+#text1{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 10px solid aqua;
+    text-align:justify;
+    text-indent: 50px;
+}
